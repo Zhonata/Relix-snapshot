@@ -163,3 +163,7 @@ li {
   color: #0E3FEC;
   margin-left: 135px;
 }
+
+.icon-less a {
+  height: 35px;
+}
