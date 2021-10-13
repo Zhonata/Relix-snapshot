@@ -1,0 +1,137 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: 000;
+  font-size: 16px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #fff500;
+  border: none;
+  border-radius: 80px;
+  box-shadow: 0 9px rgba(153, 153, 153, 0.568);
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+button:hover {
+  background-color: #ccc400;
+}
+
+button:active {
+  background-color: #ccc400;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+  width: 62%;
+  height: 88px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #6D8A87;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  background: transparent;
+  border-radius: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.tyrnumber {
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-weight: bold;
+  margin-top: -460px;
+}
+
+.tyrname {
+  font-family: "Robot";
+  margin-top: 250px;
+  margin-left: 10px;
+}
+
+.tyrtext h6 {
+  width: 471px;
+  font-size: 35px;
+}
+
+.tyrtext p {
+  width: 348px;
+  font-size: 25px;
+
+}
+
+.tyrtext {
+  margin-left: 70px;
+  margin-top: 65px;
+}
+
+.tyr a {
+  text-decoration: none;
+}
+
+.tyr-img {
+  width: 660px;
+  height: 500px;
+  border-radius: 40px;
+}
+
+.tyr {
+  display: flex;
+  margin-top: 60px;
+}
+
+.tyr a p {
+  color: white;
+  margin-left: 55px;
+  font-size: 60px;
+
+}
+
+/*.right {
+    width: 20px;
+    height: 20px;
+    margin-top: -100px;
+    margin-left: 570px;
+    color: black;
+}*/
+
+.arrow {
+  font-size: 25px;
+  margin-top: -140px;
+  margin-left: 480px;
+}
+
+
